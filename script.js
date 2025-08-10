@@ -63,13 +63,13 @@ const _slideDua = function () {
   setTimeout(function () {
     tap.classList.remove('d-none');
     document.body.addEventListener('click', function () {
-      slideDua.classList.replace('animate__zoomInDown', 'animate__fadeOutLeft');
-      slideDua.classList.remove('animate__delay-2s', 'animate__slow');
+      // slideDua.classList.replace('animate__zoomInDown', 'animate__fadeOutLeft');
+      // slideDua.classList.remove('animate__delay-2s', 'animate__slow');
       tap.classList.add('d-none');
       setTimeout(function () {
         slideDua.remove();
         _slideTiga();
-      }, 1000);
+      }, 0);
     })
   }, 16000);
 };
@@ -90,7 +90,7 @@ const _slideTiga = function () {
         _slideEmpat();
       }, 1000);
     })
-  }, 70000);
+  }, 90000);
 }
 
 function getRandomPosition(element) {
