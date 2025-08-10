@@ -43,7 +43,7 @@ const _slideSatu = function () {
     document.body.addEventListener('click', function () {
       _slideDua();
     })
-  }, 7000);
+  }, 1000);
 };
 
 const _slideDua = function () {
@@ -71,7 +71,7 @@ const _slideDua = function () {
         _slideTiga();
       }, 1000);
     })
-  }, 40000);
+  }, 16000);
 };
 
 const _slideTiga = function () {
@@ -90,7 +90,7 @@ const _slideTiga = function () {
         _slideEmpat();
       }, 1000);
     })
-  }, 43000);
+  }, 70000);
 }
 
 function getRandomPosition(element) {
@@ -154,31 +154,19 @@ const _slideEnam = function () {
 
 
 new TypeIt("#teks1", {
-  strings: ["hí chị hai hôm nay sinh nhật chị hai em trai Quốc Duy chúc hai năm mới tuổi mới, thật bình an, có nhiều sức khỏe, làm ăn phất lên, ngày càng xinh đẹp ra và trẻ trung"],
-  startDelay: 1000,
+  strings: ["Hí chị Hai hôm nay sinh nhật chị Hai em trai nhỏ chúc Hai năm mới tuổi mới, thật bình an, có nhiều sức khỏe, làm ăn phất lên, ngày càng xinh đẹp ra và trẻ trung!!!"],
+  startDelay: 3000,
   speed: 75,
   waitUntilVisible: true
 }).go();
 
 new TypeIt("#teks2", {
-  strings: ["Ok sister nhá. Nay sinh nhật sister rich, em trai lớn cũng không có gì hơn, chúc chị hai tuổi mới gặt hái được nhiều thành công, đường sự nghiệp rộng mở, thăng tiến thăng tiến. Dà hơn hết là phải luôn sức khỏe sức khỏe sức khỏe. pui pui pui"],
-  startDelay: 1000,
+  strings: ["Ok sister nhá. Nay sinh nhật sister rich, em trai lớn cũng không có gì hơn, chúc chị Hai tuổi mới gặt hái được nhiều thành công, đường sự nghiệp rộng mở, thăng tiến thăng tiến. Dà hơn hết là phải luôn sức khỏe sức khỏe sức khỏe. pui pui pui!!!"],
+  startDelay: 1500,
   speed: 75,
   waitUntilVisible: true
 }).go();
 
-
-new TypeIt("#trims", {
-  strings: ["Terimakasih."],
-  startDelay: 2000,
-  speed: 150,
-  loop: false,
-  waitUntilVisible: true,
-}).go();
-
-
-
-'use strict';
 
 var onlyOnKonami = false;
 
