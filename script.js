@@ -155,14 +155,14 @@ const _slideEnam = function () {
 
 new TypeIt("#teks1", {
   strings: ["hí chị hai hôm nay sinh nhật chị hai em trai Quốc Duy chúc hai năm mới tuổi mới, thật bình an, có nhiều sức khỏe, làm ăn phất lên, ngày càng xinh đẹp ra và trẻ trung"],
-  startDelay: 4000,
+  startDelay: 1000,
   speed: 75,
   waitUntilVisible: true
 }).go();
 
 new TypeIt("#teks2", {
   strings: ["Ok sister nhá. Nay sinh nhật sister rich, em trai lớn cũng không có gì hơn, chúc chị hai tuổi mới gặt hái được nhiều thành công, đường sự nghiệp rộng mở, thăng tiến thăng tiến. Dà hơn hết là phải luôn sức khỏe sức khỏe sức khỏe. pui pui pui"],
-  startDelay: 2000,
+  startDelay: 1000,
   speed: 75,
   waitUntilVisible: true
 }).go();
