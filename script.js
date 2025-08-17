@@ -154,7 +154,7 @@ const _slideEnam = function () {
 
 
 new TypeIt("#teks1", {
-  strings: ["Ok fan guột nhá, nay sinh nhật fan guột. Sếp là sếp không có gì hơn, sếp chúc Fan gọt Hânn Hânn sn dui dẻ, dồi dào sức phẻ, càng càng tươi tắn, điểm số gì cũng tăng, hí hí hí hí "],
+  strings: ["Ok fan guột nhá, nay sinh nhật fan guột. Sếp là sếp không có gì hơn, sếp chúc Fan gọt Hânn Hânn sn dui dẻ, dồi dào sức phẻ, càng càng tươi tắn, điểm số gì cũng tăng, hí hí hí hí 😘❤️❤️❤️❤️ "],
   startDelay: 3000,
   speed: 75,
   waitUntilVisible: true
@@ -434,4 +434,5 @@ function confetti() {
 
   if (!onlyOnKonami) poof();
 };
+
 
