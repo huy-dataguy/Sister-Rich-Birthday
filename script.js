@@ -1,4 +1,4 @@
-A// Fungsi untuk memulai musik
+// Fungsi untuk memulai musik
 function playMusic() {
   const music = document.getElementById('background-music');
   music.play();
@@ -160,6 +160,12 @@ new TypeIt("#teks1", {
   waitUntilVisible: true
 }).go();
 
+new TypeIt("#teks2", {
+  strings: ["Ok sister nhá. Nay sinh nhật sister rich, em trai lớn cũng không có gì hơn, chúc chị Hai tuổi mới gặt hái được nhiều thành công, đường sự nghiệp rộng mở, thăng tiến thăng tiến. Dà hơn hết là phải luôn sức khỏe sức khỏe sức khỏe. pui pui pui!!!"],
+  startDelay: 1500,
+  speed: 75,
+  waitUntilVisible: true
+}).go();
 
 
 var onlyOnKonami = false;
@@ -428,4 +434,3 @@ function confetti() {
 
   if (!onlyOnKonami) poof();
 };
-
