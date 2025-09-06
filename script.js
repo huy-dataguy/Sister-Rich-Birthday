@@ -153,13 +153,18 @@ const _slideEnam = function () {
 };
 
 
+// new TypeIt("#teks1", {
+//   strings: ["Ok fan guột nhá, nay sinh nhật fan guột. Sếp là sếp không có gì hơn, sếp chúc Fan gọt Hânn Hânn sn dui dẻ, dồi dào sức phẻ, càng càng tươi tắn, điểm số gì cũng tăng, hí hí hí hí 😘❤️❤️❤️❤️ "],
+//   startDelay: 3000,
+//   speed: 75,
+//   waitUntilVisible: true
+// }).go();
 new TypeIt("#teks1", {
-  strings: ["Ok fan guột nhá, nay sinh nhật fan guột. Sếp là sếp không có gì hơn, sếp chúc Fan gọt Hânn Hânn sn dui dẻ, dồi dào sức phẻ, càng càng tươi tắn, điểm số gì cũng tăng, hí hí hí hí 😘❤️❤️❤️❤️ "],
+  strings: ["Ok cốt nhá, nay sinh nhựt tôi là tôi chúc bạn snvv, dồi dao sức khỏe, cột sống trẻ khỏe, mần ăn thì ting ting đều đều❤️❤️ "],
   startDelay: 3000,
   speed: 75,
   waitUntilVisible: true
 }).go();
-
 new TypeIt("#teks2", {
   strings: ["Ok sister nhá. Nay sinh nhật sister rich, em trai lớn cũng không có gì hơn, chúc chị Hai tuổi mới gặt hái được nhiều thành công, đường sự nghiệp rộng mở, thăng tiến thăng tiến. Dà hơn hết là phải luôn sức khỏe sức khỏe sức khỏe. pui pui pui!!!"],
   startDelay: 1500,
@@ -434,5 +439,6 @@ function confetti() {
 
   if (!onlyOnKonami) poof();
 };
+
 
 
